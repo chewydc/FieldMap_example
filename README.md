@@ -20,10 +20,10 @@ project/
 - Cuáles son obligatorias.
 - Cuáles descartar.
 
-### 2. `transform.py` contiene la función `transform_api_response(data, field_map)` que aplica las reglas definidas.
+### 2. `transform.py`: 
+- Contiene la función `transform_api_response(data, field_map)` que aplica las reglas definidas.
 
 ### 3. `main.py`:
-
 - Carga un ejemplo de respuesta de API.
 - Carga el mapeo desde field_map.json.
 - Ejecuta la transformación y muestra el resultado.
