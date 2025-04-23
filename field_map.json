@@ -1,9 +1,5 @@
 {
-  "field_map": {
-    "id": "user_id",
-    "name": "full_name",
-    "email": "email",
-    "created_at": "created_at"
-  },
-  "required_fields": ["id", "name", "email", "created_at"]
+  "id": {"new_key": "user_id", "required": true},
+  "name": {"required": true},
+  "email": {"new_key": "contact_email", "required": false}
 }
